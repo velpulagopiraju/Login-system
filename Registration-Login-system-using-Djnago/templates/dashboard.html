@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'dashboard.css' %}">
+</head>
+<body>
+    <div class="dash">
+        <h2>Welcome to my website</h2>
+        <div class="buut1">
+            <button type='submit' class='butt'>Home</button>
+            <button type='submit' class='butt'>About</button>
+            <button type='submit' class='butt'>Ideas</button>
+            <button type='submit' class='butt'>Contact us</button>
+            <button type='submit' class='butt'><a href="{% url 'signuppage' %}">Log Out</a></button>
+        </div>
+    </div>
+    
+</body>
+</html>

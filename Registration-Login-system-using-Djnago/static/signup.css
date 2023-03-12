@@ -1,0 +1,36 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url(sunset-1373171__480.jpg);
+    font-family: sans-serif;
+    background-position: center;
+    background-size: cover;
+}
+.signup{
+    width: 280px;
+    box-shadow: 0 0 3px 0 rgba(0,0,0,0.3);
+    background: #fff;
+    padding: 15px;
+    margin: 8% auto 0;
+    text-align: center;
+    border-radius: 20px;
+    height: 360px;
+    
+
+}
+label {
+    text-align:center;
+    padding: 15px;
+}
+.gg {
+    border-radius: 5px;
+}
+.input {
+    border-radius: 10px;
+    padding: 3px;
+    margin: 3px;
+    border-color: blue;
+}
+button {
+    color: blue;
+}

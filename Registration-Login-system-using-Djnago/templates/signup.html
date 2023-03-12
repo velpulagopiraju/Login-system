@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Signup Page</title>
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'signup.css' %}">
+</head>
+<body>
+    <div class="signup">
+        <h1>Hi welcome to sign up page</h1>
+        <hr>
+        <form action="" method = 'POST'>
+            {% csrf_token %}
+            <label>User Name : </label>
+            <input type="text" class='input' id='username' name='username' placeholder='enter your useranme' required>
+            <br>   
+            <label>Enter your Email id : </label>
+            <input type="email" class='input' id='email' name='email' placeholder='enter your mail id' required>
+            <br>
+            <label>Password : </label>
+            <input type="password" class='input' id='pass1' name='pass1' placeholder='enter your password' required>
+            <br>
+            <label>C_password : </label>
+            <input type="password" class='input' id='pass2' name='pass2' placeholder='Conform your password' required>
+            <br>
+            <br>
+            <button type='submit'>Sign Up</button>
+        </form>
+
+    </div>
+    
+    
+</body>
+</html>

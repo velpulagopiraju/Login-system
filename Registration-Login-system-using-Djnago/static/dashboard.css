@@ -1,0 +1,30 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url(istockphoto-1148091793-612x612.jpg);
+
+}
+
+h2 {
+    color: blueviolet;
+    font-family: sans-serif;
+    background-color: aqua;
+}
+.dash {
+    text-align: center;
+    margin:8% auto 0;
+    margin-top: 20px;
+    
+    
+}
+.butt {
+    margin: 10px;
+    background-color: cyan;
+    color: black;
+}
+.buut1 {
+    background-color: cornflowerblue;
+    border-radius: 20px;
+    
+
+}
